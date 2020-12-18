@@ -93,7 +93,7 @@ public class Databaseconnect {
             System.out.println("Book name :");
             String Book_name=sc.nextLine();
            
-            st.executeUpdate("DELETE FROM b_list WHERE item ='"+Book_name+"'");
+            st.executeUpdate("DELETE FROM b_list WHERE  Book_name='"+Book_name+"'");
             System.out.println("Values Delete Succesfully!!");
             
             
