@@ -75,7 +75,7 @@ public class Databaseconnect {
             String Book_name=sc.nextLine();
             System.out.println("Book type :");
             String Book_type = sc.nextLine();
-            st.executeUpdate("UPDATE b_list SET Book_type = '"+Book_type+"'WHERE item ='"+Book_name+"'");
+            st.executeUpdate("UPDATE b_list SET Book_type = '"+Book_type+"'WHERE Book_name='"+Book_name+"'");
             System.out.println("Values Update Succesfully!!");
             
             
